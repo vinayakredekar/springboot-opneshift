@@ -38,6 +38,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-docker</finalName>
 	</build>
+	<distributionManagement>
+                <repository>
+                <id>bintray-neostar-jparepo</id>
+                <name>neostar-jparepo</name>
+                <url>https://api.bintray.com/maven/neostar/jparepo/com.learning/;publish=1</url>
+                </repository>
+</distributionManagement>
 
 </project>

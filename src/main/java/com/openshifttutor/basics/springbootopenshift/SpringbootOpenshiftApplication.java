@@ -13,7 +13,7 @@ public class SpringbootOpenshiftApplication {
 		SpringApplication.run(SpringbootOpenshiftApplication.class, args);
 	}
 	
-	@GetMapping(name = "hello")
+	@GetMapping(path = "/hello")
 	public String welcomeOpenshit() {
 		return "Welcome to OpenShift!";
 	}
