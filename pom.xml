@@ -29,6 +29,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.6</version>
+</dependency>
+<dependency>
+    <groupId>com.jcabi</groupId>
+    <artifactId>jcabi-jdbc</artifactId>
+    <version>0.17.3</version>
+</dependency>
 	</dependencies>
 
 	<build>
@@ -40,12 +55,13 @@
 		</plugins>
 		<finalName>spring-boot-docker</finalName>
 	</build>
-	<distributionManagement>
-                <repository>
+	
+	<!-- <distributionManagement>
+    <repository>
                 <id>bintray-neostar-jparepo</id>
                 <name>neostar-jparepo</name>
                 <url>https://api.bintray.com/maven/neostar/jparepo/com.learning/;publish=1</url>
                 </repository>
-</distributionManagement>
+</distributionManagement> -->
 
 </project>
